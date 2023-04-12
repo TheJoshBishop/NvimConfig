@@ -85,6 +85,7 @@ return packer.startup(function(use)
     use "nvim-lualine/lualine.nvim"
     use "lewis6991/gitsigns.nvim"
     use "nvim-tree/nvim-tree.lua"
+    use "windwp/nvim-ts-autotag"
 
     use "akinsho/toggleterm.nvim"
     use 'nvim-tree/nvim-web-devicons'

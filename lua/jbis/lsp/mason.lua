@@ -5,10 +5,9 @@ local servers = {
     "rust_analyzer",
     "clangd",
     "html",
---    "css",
---    "haxe",
---    "cmake",
---    "json",
+    "cssls",
+    "haxe_language_server",
+    "jsonls",
     "cmake",
 }
 
