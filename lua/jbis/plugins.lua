@@ -98,6 +98,12 @@ return packer.startup(function(use)
     use "kdheepak/lazygit.nvim"
     use "startup-nvim/startup.nvim"
 
+    -- Live HTML server
+    use "manzeloth/live-server"
+
+    -- Tabnine
+    use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if PACKER_BOOTSTRAP then
