@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
     url = "https://github.com/kdheepak/lazygit.nvim"
   },
+  ["live-server"] = {
+    loaded = true,
+    path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/live-server",
+    url = "https://github.com/manzeloth/live-server"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -243,6 +248,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/startup.nvim",
     url = "https://github.com/startup-nvim/startup.nvim"
+  },
+  ["tabnine-nvim"] = {
+    loaded = true,
+    path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/tabnine-nvim",
+    url = "https://github.com/codota/tabnine-nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

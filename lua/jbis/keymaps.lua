@@ -21,8 +21,8 @@ vim.g.maplocalleader = " "
 -- Normal --
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
+keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
@@ -41,6 +41,8 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 -- Press jk fast to enter
 keymap("i", "jk", "<ESC>", opts)
 keymap("i", "kj", "<ESC>", opts)
+keymap("i", "JK", "<ESC>", opts)
+keymap("i", "KJ", "<ESC>", opts)
 
 -- Visual --
 -- Stay in indent mode
@@ -73,10 +75,6 @@ keymap("n", "<leader>gg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", opts)
 keymap("n", "<leader>f", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = true }))<cr>", opts)
 keymap("n", "<c-t>", "<cmd>Telescope live_grep<cr>", opts)
 
--- Comment
--- keymap("n", "gcc", "<cmd>lua require('Comment.api').toggle.linewise.current()<CR>", opts)
--- keymap("x", "gcc", "<esc><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<CR>", opts)
-
 -- DAP
 keymap("n", "<leader>db", "<cmd>lua require'dap'.toggle_breakpoint()<cr>", opts)
 keymap("n", "<leader>dc", "<cmd>lua require'dap'.continue()<cr>", opts)
@@ -88,5 +86,6 @@ keymap("n", "<leader>dl", "<cmd>lua require'dap'.run_last()<cr>", opts)
 keymap("n", "<leader>du", "<cmd>lua require'dapui'.toggle()<cr>", opts)
 keymap("n", "<leader>dt", "<cmd>lua require'dap'.terminate()<cr>", opts)
 
-keymap("n", "<C-z>", ":undo<CR>", opts)
-keymap("n", "<C-S-z>", ":redo<CR>", opts)
+
+keymap("n", "<leader>vv", "<cmd>:vsplit<CR>", opts);
+keymap("n", "<leader>vh", "<cmd>:split<CR>", opts);

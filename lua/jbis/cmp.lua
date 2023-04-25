@@ -53,7 +53,7 @@ cmp.setup {
   },
   mapping = {
     ["<C-k>"] = cmp.mapping.select_prev_item(),
-		["<C-j>"] = cmp.mapping.select_next_item(),
+    ["<C-j>"] = cmp.mapping.select_next_item(),
     ["<C-b>"] = cmp.mapping(cmp.mapping.scroll_docs(-1), { "i", "c" }),
     ["<C-f>"] = cmp.mapping(cmp.mapping.scroll_docs(1), { "i", "c" }),
     ["<C-Space>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" }),
@@ -105,6 +105,7 @@ cmp.setup {
         luasnip = "[Snippet]",
         buffer = "[Buffer]",
         path = "[Path]",
+        tabnine = "[Tabnine]",
       })[entry.source.name]
       return vim_item
     end,
@@ -115,6 +116,7 @@ cmp.setup {
     { name = "buffer" },
     { name = "path" },
     { name = "nvim_lua" },
+    { name = "tabnine" },
   },
   confirm_opts = {
     behavior = cmp.ConfirmBehavior.Replace,
