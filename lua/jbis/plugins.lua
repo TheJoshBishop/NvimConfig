@@ -92,6 +92,7 @@ return packer.startup(function(use)
     use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
 
     use "folke/which-key.nvim"
+    use "norcalli/nvim-colorizer.lua"
 
 
     -- Git
