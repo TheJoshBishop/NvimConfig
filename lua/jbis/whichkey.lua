@@ -159,6 +159,13 @@ local mappings = {
       "Workspace Symbols",
     },
   },
+  v = {
+        name = "View",
+        x = { "<cmd>:%!xxd<CR>", "View Hex"},
+        t = { "<cmd>:%!xxd -r<CR>", "View Text"},
+        v = { "<cmd>:vsplit<CR>", "Vertical Split"},
+        h = { "<cmd>:split<CR>", "Horizontal Split" },
+    },
   s = {
     name = "Search",
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },

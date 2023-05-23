@@ -48,6 +48,7 @@ return packer.startup(function(use)
     use "numToStr/Comment.nvim"
 
     -- Colorschemes
+    use({ 'raddari/last-color.nvim' }) 
     use "navarasu/onedark.nvim"
     use "xiyaowong/nvim-transparent"
     use "rmehri01/onenord.nvim"
