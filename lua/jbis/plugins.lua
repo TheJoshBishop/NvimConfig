@@ -72,6 +72,10 @@ return packer.startup(function(use)
     use "williamboman/mason.nvim" -- simple to use language server installer
     use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
     use 'jose-elias-alvarez/null-ls.nvim' -- LSP diagnostics and code actions
+    use "OmniSharp/omnisharp-vim"
+
+    -- Linter
+    -- use "dense-analysis/ale"
 
     -- DAP
     use "mfussenegger/nvim-dap"
@@ -101,7 +105,7 @@ return packer.startup(function(use)
     use "startup-nvim/startup.nvim"
 
     -- Live HTML server
-    use "manzeloth/live-server"
+    -- use "manzeloth/live-server"
 
     -- Tabnine
     use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }

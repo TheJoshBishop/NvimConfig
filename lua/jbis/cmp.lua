@@ -117,6 +117,7 @@ cmp.setup {
     { name = "path" },
     { name = "nvim_lua" },
     { name = "tabnine" },
+    { name = "omnisharp" },
   },
   confirm_opts = {
     behavior = cmp.ConfirmBehavior.Replace,

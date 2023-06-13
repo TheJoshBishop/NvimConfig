@@ -144,11 +144,6 @@ _G.packer_plugins = {
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
     url = "https://github.com/kdheepak/lazygit.nvim"
   },
-  ["live-server"] = {
-    loaded = true,
-    path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/live-server",
-    url = "https://github.com/manzeloth/live-server"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -228,6 +223,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  ["omnisharp-vim"] = {
+    loaded = true,
+    path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/omnisharp-vim",
+    url = "https://github.com/OmniSharp/omnisharp-vim"
   },
   ["onedark.nvim"] = {
     loaded = true,
