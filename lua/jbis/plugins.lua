@@ -53,6 +53,9 @@ return packer.startup(function(use)
     use "xiyaowong/nvim-transparent"
     use "rmehri01/onenord.nvim"
     use "brenoprata10/nvim-highlight-colors"
+    -- Indent lines
+    use "lukas-reineke/indent-blankline.nvim"
+
 
     -- cmp plugins
     use "hrsh7th/nvim-cmp" -- The completion plugin
