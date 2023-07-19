@@ -47,12 +47,22 @@ return packer.startup(function(use)
     use "windwp/nvim-autopairs"
     use "numToStr/Comment.nvim"
 
+    use "ldelossa/nvim-ide"
+
     -- Colorschemes
     use({ 'raddari/last-color.nvim' }) 
     use "navarasu/onedark.nvim"
     use "xiyaowong/nvim-transparent"
     use "rmehri01/onenord.nvim"
     use "brenoprata10/nvim-highlight-colors"
+    use "olivercederborg/poimandres.nvim"
+    use "Shatur/neovim-ayu"
+    use "folke/lsp-colors.nvim"
+    use "jacoborus/tender.vim"
+    use "savq/melange-nvim"
+    use "mcchrish/zenbones.nvim"
+
+
     -- Indent lines
     use "lukas-reineke/indent-blankline.nvim"
 
