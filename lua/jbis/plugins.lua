@@ -47,8 +47,6 @@ return packer.startup(function(use)
     use "windwp/nvim-autopairs"
     use "numToStr/Comment.nvim"
 
-    use "ldelossa/nvim-ide"
-
     -- Colorschemes
     use({ 'raddari/last-color.nvim' }) 
     use "navarasu/onedark.nvim"
@@ -100,10 +98,15 @@ return packer.startup(function(use)
         "nvim-treesitter/nvim-treesitter",
         run = ":TSUpdate",
     }
+    use "nvim-tree/nvim-tree.lua"
     use "nvim-lualine/lualine.nvim"
     use "lewis6991/gitsigns.nvim"
-    use "nvim-tree/nvim-tree.lua"
     use "windwp/nvim-ts-autotag"
+
+    use {
+        "nvim-telescope/telescope-file-browser.nvim",
+        requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+    }
 
     use "akinsho/toggleterm.nvim"
     use 'nvim-tree/nvim-web-devicons'

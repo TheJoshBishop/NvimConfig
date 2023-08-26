@@ -214,11 +214,6 @@ _G.packer_plugins = {
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/nvim-highlight-colors",
     url = "https://github.com/brenoprata10/nvim-highlight-colors"
   },
-  ["nvim-ide"] = {
-    loaded = true,
-    path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/nvim-ide",
-    url = "https://github.com/ldelossa/nvim-ide"
-  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -293,6 +288,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/tabnine-nvim",
     url = "https://github.com/codota/tabnine-nvim"
+  },
+  ["telescope-file-browser.nvim"] = {
+    loaded = true,
+    path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",
+    url = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
