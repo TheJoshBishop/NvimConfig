@@ -159,13 +159,23 @@ local mappings = {
       "Workspace Symbols",
     },
   },
-  v = {
-        name = "View",
-        x = { "<cmd>:%!xxd<CR>", "View Hex"},
-        t = { "<cmd>:%!xxd -r<CR>", "View Text"},
-        v = { "<cmd>:vsplit<CR>", "Vertical Split"},
-        h = { "<cmd>:split<CR>", "Horizontal Split" },
+  
+  L = {
+        name = "LeetCode",
+        l = {"LeetCodeList", "List Problems"},
+        r = {"LeetCodeReset", "Reset"},
+        s = {"LeetCodeSubmit", "Submit Problem"},
+        S = {"LeetCodeSignIn", "Sign In"},
+        t = {"LeetCodeList", "Test Problem"},
     },
+  -- B = {
+  --       name = "Build",
+  --       d = {"!dotnet build<CR>", "dotnet"},
+  -- },
+  -- r = {
+  --       name = "Run",
+  --       d = {"!dotnet run<CR>", "dotnet"},
+  -- },
   s = {
     name = "Search",
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
@@ -177,6 +187,13 @@ local mappings = {
     k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
     C = { "<cmd>Telescope commands<cr>", "Commands" },
   },
+  v = {
+        name = "View",
+        x = { "<cmd>:%!xxd<CR>", "View Hex"},
+        t = { "<cmd>:%!xxd -r<CR>", "View Text"},
+        v = { "<cmd>:vsplit<CR>", "Vertical Split"},
+        h = { "<cmd>:split<CR>", "Horizontal Split" },
+    },
 
   t = {
     name = "Terminal",

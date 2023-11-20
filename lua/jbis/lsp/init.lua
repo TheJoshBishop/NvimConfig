@@ -6,3 +6,4 @@ end
 require "jbis.lsp.mason"
 require("jbis.lsp.handlers").setup()
 require "jbis.lsp.null-ls"
+require "jbis.lsp.omnisharp"
