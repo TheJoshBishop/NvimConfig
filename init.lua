@@ -17,5 +17,19 @@ require "jbis.dap"
 require "jbis.startup"
 require "jbis.tabnine"
 require "jbis.nvim-colorizer"
-require "jbis.indentline"
+-- require "jbis.indentline"
 require "jbis.build-system"
+
+-- Enable the Neovim server
+if vim.fn.has('nvim') then
+  vim.cmd([[
+    set nocompatible
+    let $NVIM_LISTEN_ADDRESS = substitute(
+          \ $NVIM_LISTEN_ADDRESS,
+          \ '\v^(.*:)\zs\d+(\.\d+)?$',
+          \ '\=serverstart(v:servername, {"rpc": v:true})',
+          \ 'g'
+        \ )
+  ]])
+end
+

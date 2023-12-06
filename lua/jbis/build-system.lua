@@ -33,5 +33,5 @@ function BuildProject()
 end
 
 
-keymap("n", "<leader>bb", [[:lua RunProject()<CR>]], opts)
-keymap("n", "<leader>rr", [[:lua BuildProject()<CR>]], opts)
+keymap("n", "<F5>", [[:lua RunProject()<CR>]], opts)
+keymap("n", "<F6>", [[:lua BuildProject()<CR>]], opts)

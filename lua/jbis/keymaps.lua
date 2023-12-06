@@ -28,10 +28,10 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Resize with arrows
-keymap("n", "<C-S-Up>", ":resize +2<CR>", opts)
-keymap("n", "<C-S-Down>", ":resize -2<CR>", opts)
-keymap("n", "<C-S-Left>", ":vertical resize -2<CR>", opts)
-keymap("n", "<C-S-Right>", ":vertical resize +2<CR>", opts)
+keymap("n", "<C-S-up>", ":resize +2<CR>", opts)
+keymap("n", "<C-S-down>", ":resize -2<CR>", opts)
+keymap("n", "<C-S-left>", ":vertical resize -2<CR>", opts)
+keymap("n", "<C-S-right>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts)
