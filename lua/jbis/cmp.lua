@@ -118,6 +118,7 @@ cmp.setup {
     { name = "nvim_lua" },
     { name = "tabnine" },
     { name = "omnisharp" },
+    { name = "godot" },
   },
   confirm_opts = {
     behavior = cmp.ConfirmBehavior.Replace,

@@ -259,11 +259,6 @@ _G.packer_plugins = {
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
   },
-  ["nvim-transparent"] = {
-    loaded = true,
-    path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/nvim-transparent",
-    url = "https://github.com/xiyaowong/nvim-transparent"
-  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -353,11 +348,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
-  },
-  ["transparent.nvim"] = {
-    loaded = true,
-    path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/transparent.nvim",
-    url = "https://github.com/xiyaowong/transparent.nvim"
   },
   ["vim-godot"] = {
     loaded = true,

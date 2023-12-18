@@ -8,3 +8,4 @@ require("jbis.lsp.handlers").setup()
 require "jbis.lsp.null-ls"
 require "jbis.lsp.omnisharp"
 require "jbis.lsp.gdscript"
+require "jbis.lsp.clangd"
