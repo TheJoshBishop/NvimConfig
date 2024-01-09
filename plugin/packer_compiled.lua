@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/darcula-solid.nvim",
     url = "https://github.com/briones-gabriel/darcula-solid.nvim"
   },
+  ["fine-cmdline.nvim"] = {
+    loaded = true,
+    path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/fine-cmdline.nvim",
+    url = "https://github.com/VonHeikemen/fine-cmdline.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/joshbishop/.local/share/nvim/site/pack/packer/start/friendly-snippets",

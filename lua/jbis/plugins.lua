@@ -135,9 +135,12 @@ return packer.startup(function(use)
     -- Tabnine
     use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
 
-    use "MunifTanjim/nui.nvim"
-
     use 'habamax/vim-godot'
+
+    use {
+        'VonHeikemen/fine-cmdline.nvim',
+        requires = 'MunifTanjim/nui.nvim'
+    }
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
