@@ -4,10 +4,6 @@ local servers = {
     "jdtls",
     "rust_analyzer",
     "clangd",
-    "html",
-    "cssls",
-    "haxe_language_server",
-    "jsonls",
     "cmake",
 }
 
